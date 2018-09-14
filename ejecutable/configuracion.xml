@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\desarrollo\workspace\JudicialesApp\dist\JudicialesApp.jar</jar>
+  <outfile>D:\desarrollo\workspace\JudicialesApp\ejecutable\JudicialApp.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>D:\desarrollo\ejecutables\favicon.ico</icon>
+  <classPath>
+    <mainClass>gov.afip.dgi.agencia66.judiciales.view.JudicialApp</mainClass>
+    <cp>lib/itext5-itext-pdfa-5.5.11-javadoc.jar</cp>
+    <cp>lib/itext5-itext-pdfa-5.5.11-sources.jar</cp>
+    <cp>lib/itext5-itext-pdfa-5.5.11.jar</cp>
+    <cp>lib/itext5-itext-xtra-5.5.11-javadoc.jar</cp>
+    <cp>lib/itext5-itext-xtra-5.5.11-sources.jar</cp>
+    <cp>lib/itext5-itext-xtra-5.5.11.jar</cp>
+    <cp>lib/itext5-itextpdf-5.5.11-javadoc.jar</cp>
+    <cp>lib/itext5-itextpdf-5.5.11-sources.jar</cp>
+    <cp>lib/itext5-itextpdf-5.5.11.jar</cp>
+    <cp>lib/itext5-xmlworker-5.5.11-javadoc.jar</cp>
+    <cp>lib/itext5-xmlworker-5.5.11-sources.jar</cp>
+    <cp>lib/itext5-xmlworker-5.5.11.jar</cp>
+  </classPath>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.0.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJdk</jdkPreference>
+    <runtimeBits>32/64</runtimeBits>
+  </jre>
+</launch4jConfig>
